@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html lang="en">
+<!-- Hi Folks, this is the template file for pages in the citySchema.org documentation library -->
+<head> <!-- Edit the following for each page -->
+    <title>About DocuTree</title>
+    <meta name="description" content="Home page for the citySchema project.  A gateway for tools, techniques and documentation about cross-disciplinary collaboration on city models. ">
+    <meta name="keywords" content="City Modeling, Digital Humanities, Geography">
+    <meta name="author" content="Paul B. Cote">
+    
+<!-- don't edit between here and the Article div.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../resources/images/favicon-16px.png" type="image/x-icon">
+    <script src="../resources/jquery/jquery-3.6.0.min.js"></script>
+    <link href="../resources/docutree.css" rel="stylesheet"> 
+    <script src="../resources/slideshow_pbc.js"></script>
+    <link href="../resources/slideshow_pbc.css" rel="stylesheet"> 
+    
+
+    <!-- The index sidebar and all content other than the main article come from the docutree_includes.js.
+          When you add a new page or internalachcor, you should update the index in docutree_includes.js.-->
+    <script src="../resources/docutree_includes.js"></script>
+    <!-- THis has to come after the cityschema_includes file-->
+    <script src="../resources/docutree.js"></script>
+    </head>
+    <body>
+      <div id="grid-container">
+        <div id="index-container">
+          <div id="index-header"> <!-- Content provided by docutree_includes.js--> </div>
+          <div id="index">        <!-- Content provided by docutree_includes.js--> </div>
+          <div id="index-footer"> <!-- Content provided by docutree_includes.js--> </div>
+        </div> 
+<div id="main-container">
+  <div id="header"> <!-- Content provided by docutree_includes.js--> </div>
+
+<!-- Page content goes inside the article div -->
+  <div id="article">
+  <h3 class="section_title"></h3>  <!-- Optional: would be the tile of the intro chapter.  -->
+  <h1 class="title">About Docutree</h1>
+  <p> Docutree is a very simple framework for organizing a hierarchy of topics in a static collection of html pages.
+  Pahes and sub-headings accessible as a folding index in a sidebar.  
+  <p>View the template to see how the CSS styles and javascript files enable a reasonably easy-to-read page style with headers and footers, floating illustrations, and slideshows.  
+  
+  <h2 id="static">Modular HTML Documentation for Git Projects</h2>
+  <p>Docutree is designed to create a static web-site that behaves the same way when previewed on a local file-system or on git-hub pages without any need for a web server. 
+  <p>Any web browser perroms as a viewer, any text editor performs as an editor.
+  <p>The beauty of docuTree is that it provides a way of managing and sharing documentation on gitHub.  The latest version is published and accessible to users without any fuss.   Collaborators who wish to branch or fork their projects can easily fork the concurrent documentation.  So much more straight-forward than trying to use publishing media like PDF.
+  
+  <h2 id="add">Add docuTree to your Project</h2>
+  <p>A project may have several related repositories and one <b>documentation</b> repo -- which might start out as a clone of this repository. You add folders with index.htm files and potentially images, to extend the documentation for your project.  Using Git to publish the html as a web site -- using GitPages.  It is all free for open-source, public repositories.
+  <p>Your clients and collaborators enjoy having immediate access to the latest documentation -- they are also welcome to clone it as their own should they ever decide to fork the project. 
+
+<h3 id="preview">Preview Local Repo in Browser</h2> 
+  <p>Here are some steps for using docuTree to start a documentation repo for your project:
+    <ul>
+      <li>Create a project on gitHub. A project is a namespace that can contain several repositories
+      <li>Clone github.com/pbcgis/docutree to a new repository in your project.   Name the new repository <b>documentation</b>
+      <li>Clone your new remote documentation repository to the file-system that you use for development.  Hint: keep your project documentation with the other local repos associated with your project.
+      <li>Preview the docuTree/index.htm in your favorite browser.  This should render the docutree home page and index side-bar as pictured, below. 
+      <ol>
+
+    <h2 id="gitpages">Publish On-Line Docs with GitHub Pages</h2>
+  <p>The <a href="https://pages.github.com/" target="outboard">GitPages</a> feature of GitHub is a very handy way of publising a simple, static web site like docuTree.  Not only is it smething like free hosting, but you also get the very efficient mirroring of the related documents and their updates, provided by your git workflows.  Publishing your docs this way also provides collaborators and users of all kinds to use the most up-to-date documentation, to browse its file structure and to download or clone the whole tree, or to subscribe to updates.
+  <p>    
+
+    <h2 id="oldschool">Old School HTML</h3>
+
+
+  </div> <!-- Closes #article div -->
+  <div id="footer"> <!-- Content provided by docutree_includes.js--> </div> 
+
+
+
+
+</div> <!-- Closes main container--> 
+</div> <!-- closes grid container-->
+</body>
+
+</html>
+    
