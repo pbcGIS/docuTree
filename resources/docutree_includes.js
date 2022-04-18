@@ -13,10 +13,10 @@
     <li class="verse"><a href="../home_intro/index.htm#early">Home Intro Early Link</a></li>
     <li class="chapter"><a href="../home/index.htm">Home</a></li>
        <ul class="verses">
-         <li class="verse"><a href="../home/index.htm#early">early Link</a></li>
-         <li class="verse"><a href="../home/index.htm#late">Late Link</a></li>
+         <li><a href="../home/index.htm#early">early Link</a></li>
+         <li><a href="../home/index.htm#late">Late Link</a></li>
        </ul>
-    <li class="verse">List item three</li>
+    <li>List item three</li>
 </ul> */}
 // Note that a "chapters are web pages represented by index.htm files (based on the template).
 // A chapter is al LI element followed by a complete UL element with class="verses". 
@@ -32,18 +32,18 @@ let index_htm = `
 </p>  
 <ul class="treeview">
 
-<li class="chapter"><a href="../home/index.htm">Your Project Overview</a></li>
+<li class="chapter"><a href="../home/index.htm">Your Documentation's Home Page</a></li>
     <!-- ul class="verses">
       <li><a href="../home/index.htm#roles">Stakeholder Roles and Motivations</a></li>
       <li><a href="../home/index.htm#oais">Archival Asset Management Approach</a></li>
     </ul -->
 
   <li class="chapter"><a href="../docutree/index.htm">About DocuTree</a></li>
-    <ul class="verses">
-      <li><a href="../home/index.htm#roles">Stakeholder Roles and Motivations</a></li>
-      <li><a href="../home/index.htm#oais">Archival Asset Management Approach</a></li>
-    </ul>
+  <ul class="verses">
+    <li><a href="../docutree/index.htm#static">Modular HTML Documentation for Git Projects</a>
+  </ul>
 
+  
 <li class="chapter"><a href="../template/index.htm">Documentation Template / Style Guide</a></li>
   <ul class="verses">
     <li><a href="../template/index.htm#css">Basic Styling</a>
@@ -66,22 +66,15 @@ let header_htm = `
 let index_head_htm = `<img height="100%" style="float:left; padding: 0px 2px 2px 2px;" src="../resources/images/logo-255px.png"><p class="index-title">DocuTree</p></div>`;
 
 let index_footer_htm = `
-<div class="middleflex " >
-   <!--div>Hide/Show: </div> 
-   <div id="toggle_headings">Pages</div> 
-   <div id="toggle_subjects">Headings</div-->
+<div>
    <div><a href="../docutree/index.htm">About docuTree</a>
-
  </div>
 `;
 
-let footer_htm = `<div style="width: 50%; float: left;"><a style="color: black; font-size: 10pt;" href="../resources/mit_license.txt">License</a></div>
-<div style= "width: 50%; float: right;
-<div class="rightflex" style="width: 50%;">
-   <a style="color: red; font-size: 10pt; font-family: Arial, Helvetica, sans-serif;" href="http://pbcgis.com" target="_new">Author Credit</a> <span style="color: red; font-size: 6pt; vertical-align: super;"> &reg;</span>
+let footer_htm = `<div style="width: 50%; float: left;"><a style="color: black; " href="../resources/mit_license.txt">License</a></div>
+<div style="width: 50%; text-align: right; float: right; margin-left: auto; ">
+   <a style="color: red; " href="http://pbcgis.com" target="_outboard">Author Credit</a>
 </div>`;
-
-
 
 
 $(function() {
