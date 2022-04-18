@@ -53,7 +53,8 @@
 
 
   #header { grid-area: header; 
-    background-color: #E5DFC9;
+    background-color: hsl(192, 80%, 81%);
+    /*background-color: #E5DFC9;*/
     padding: 0px 10px 0px 10px;
     color: linen;}
   #index { grid-area: index; 
@@ -68,10 +69,11 @@
   #footer { grid-area: footer; 
             padding: 0px 10px 15px 10px;}
   #index-header { grid-area: index-header; 
-       background-color: #E5DFC9;
+       background-color: hsl(192, 80%, 81%);
        padding: 3px 0px 0px 0px;
         }
   #index-footer { grid-area: index-footer; 
+       background-color: hsl(192, 80%, 81%);
        padding: 0px 10px 15px 10px;
        border-top-style: ridge;
        border-top-color: rgb(28, 87, 121);

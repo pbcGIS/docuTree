@@ -57,7 +57,7 @@ let header_htm = `
 <div style="float: left; width: 50%; margin: 0px"><img src="../resources/images/banner.png" height="50px"></div>
 <div style= "width: 50%; float: right; padding-top: 20px; font-size: 17px;">
 <div class="rightflex">
-<div><a href="https://github.com/c-dash" target="github">GitHub</a></div> 
+<div><a href="https://github.com/pbcgis/docutree" target="github">GitHub</a></div> 
 <!-- div><a href="https://www.youtube.com/channel/UCPkMHdYokjSvoaljowhkjBQ" target="youtube">YouTube</a></div -->
 <div><a href="../home/index.htm">Home</a></div>
 </div></div>
@@ -75,8 +75,11 @@ let index_footer_htm = `
  </div>
 `;
 
-let footer_htm = `<div style="float: left;"><a style="color: black; font-size: 10pt;" href="../resources/mit_license.txt">MIT License</a></div>
-<div class="rightflex" style="color: red; font-size: 10pt; font-family: Arial, Helvetica, sans-serif;"><div><a href="http://pbcgis.com" target="_new">pbcGIS: cultivating spatial intelligence</a> <span style="font-size: 6pt; vertical-align: super;"> &reg;</span></div></div>`;
+let footer_htm = `<div style="width: 50%; float: left;"><a style="color: black; font-size: 10pt;" href="../resources/mit_license.txt">License</a></div>
+<div style= "width: 50%; float: right;
+<div class="rightflex" style="width: 50%;">
+   <a style="color: red; font-size: 10pt; font-family: Arial, Helvetica, sans-serif;" href="http://pbcgis.com" target="_new">Author Credit</a> <span style="color: red; font-size: 6pt; vertical-align: super;"> &reg;</span>
+</div>`;
 
 
 
