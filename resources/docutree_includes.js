@@ -40,14 +40,23 @@ let index_htm = `
 
   <li class="chapter"><a href="../docutree/index.htm">About DocuTree</a></li>
   <ul class="verses">
-    <li><a href="../docutree/index.htm#static">Modular HTML Documentation for Git Projects</a>
+  <li><a href="../docutree/index.htm#fab">Features and Benefits</a>
+  <li><a href="../docutree/index.htm#publish">Easy to Publish and Update</a>
+  <li><a href="../docutree/index.htm#add">Add docutree to your Git project</a>
+  <li><a href="../docutree/index.htm#">Preview Local Documentation in any Browser</a>
+  <li><a href="../docutree/index.htm#gitpages">Publish On-Line User Documentation with GitPages</a>
+  <li><a href="../docutree/index.htm#improve">Re-Use and Improve!</a>
   </ul>
 
-  
+
 <li class="chapter"><a href="../template/index.htm">Documentation Template / Style Guide</a></li>
-  <ul class="verses">
-    <li><a href="../template/index.htm#css">Basic Styling</a>
-    <li><a href="../template/index.htm#slideshow_element">Slideshows</a>
+<ul class="verses">
+  <li><a href="../template/index.htm#css">Basic Styling</a>
+  <li><a href="../template/index.htm#slideshow_element">Slide Shows</a>
+  <li><a href="../template/index.htm#figures">Figures</a>
+  <li><a href="../template/index.htm#table">Tables</a>
+  <li><a href="../template/index.htm#tabtargets">Controlling new Tabs</a>
+  <li><a href="../template/index.htm#blocks">Colored Text Blocks</a>
   </ul>
 
 
